@@ -1,0 +1,53 @@
+body {    
+    background-color: rgba(254, 38, 38, 0.96);
+    }
+
+#container {    
+    margin: 100px auto;
+    width: 800px;
+    text-align : center ;
+}
+
+#message {
+    padding: 30px;
+    width: 650px ;
+    height: 200px;
+    margin: 20px;
+    color: #3CFF70;
+    font-size: 100px;
+    background: #000000;
+    border: 3px solid #2CD5F9;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+#keyboard {    
+    padding : 20px ;
+    width: 1400px auto;
+    margin: auto;
+    list-style: none;
+    border: 3px dashed ;
+}
+.char,.tab,.back,.ent,.spa{    
+    margin: 0 2px 2px 0;
+    width: 40px;	
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #2CD5F9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.ent{    
+    width: 100px;    
+}
+.tab{
+    width: 80px;  
+}
+.back{
+    width: 90px;  
+}
+.spa{    
+    clear: left;
+    width: 700px;    
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+    <div id="container">
+        <textarea id="message" rows="6" cols="60" disabled ></textarea>
+        <div id="keyboard">
+                <button class="char" onclick="add('`')">`</button>
+                <button class="char" onclick="add('1')">1</button>
+                <button class="char" onclick="add('2')">2</button>
+                <button class="char" onclick="add('3')">3</button>
+                <button class="char" onclick="add('4')">4</button>
+                <button class="char" onclick="add('5')">5</button>
+                <button class="char" onclick="add('6')">6</button>
+                <button class="char" onclick="add('7')">7</button>
+                <button class="char" onclick="add('8')">8</button>
+                <button class="char" onclick="add('9')">9</button>
+                <button class="char" onclick="add('0')">0</button>
+                <button class="char" onclick="add('-')">-</button>
+                <button class="char" onclick="add('=')">=</button>
+                <button class="back" onclick="bac('\b')">Backspace</button><br>
+                <button class="tab" onclick="add('\t')">Tab</button>
+                <button class="char" onclick="add('q')">Q</button>
+                <button class="char" onclick="add('w')">W</button>
+                <button class="char" onclick="add('e')">E</button>
+                <button class="char" onclick="add('r')">R</button>
+                <button class="char" onclick="add('t')">T</button>
+                <button class="char" onclick="add('y')">Y</button>
+                <button class="char" onclick="add('u')">U</button>
+                <button class="char" onclick="add('i')">I</button>
+                <button class="char" onclick="add('o')">O</button>
+                <button class="char" onclick="add('p')">P</button>
+                <button class="char" onclick="add('[')">[</button>
+                <button class="char" onclick="add(']')">]</button>
+                <button class="char" onclick="add('\\')">\</button><br>
+                <button class="char" onclick="add('a')">A</button>
+                <button class="char" onclick="add('s')">S</button>
+                <button class="char" onclick="add('d')">D</button>
+                <button class="char" onclick="add('f')">F</button>
+                <button class="char" onclick="add('g')">G</button>
+                <button class="char" onclick="add('h')">H</button>
+                <button class="char" onclick="add('j')">J</button>
+                <button class="char" onclick="add('k')">K</button>
+                <button class="char" onclick="add('l')">L</button>
+                <button class="char" onclick="add(';')">;</button>
+                <button class="char" onclick="add('\'')">'</button>
+                <button class="ent" onclick="add('\n')">Enter</button><br>
+                <button class="char" onclick="add('z')">Z</button>
+                <button class="char" onclick="add('x')">X</button>
+                <button class="char" onclick="add('c')">C</button>
+                <button class="char" onclick="add('v')">V</button>
+                <button class="char" onclick="add('b')">B</button>
+                <button class="char" onclick="add('n')">N</button>
+                <button class="char" onclick="add('m')">M</button>
+                <button class="char" onclick="add(',')">,</button>
+                <button class="char" onclick="add('.')">.</button>
+                <button class="char" onclick="add('/')">/</button><br>
+                <button class="spa" onclick="add(' ')">SpaceBar</button>
+        </div>
+    </div>
+</body>
+
+</html>
